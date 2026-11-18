@@ -1,0 +1,18 @@
+00:00 +0: loading C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/unit/task_item_test.dart
+00:00 +0: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/unit/task_item_test.dart: task map round trip preserves the fields
+00:00 +1: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/unit/task_item_test.dart: copyWith changes completion without changing other fields
+00:02 +2: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/unit/task_validator_test.dart: TaskValidator rejects an empty or whitespace-only title
+00:02 +3: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/unit/task_validator_test.dart: TaskValidator accepts a trimmed title up to 80 characters
+00:02 +4: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/unit/task_validator_test.dart: TaskValidator rejects titles longer than 80 characters
+00:04 +5: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/widget/task_flow_test.dart: empty sign-in form shows field validation
+00:05 +6: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/widget/task_flow_test.dart: invalid password remains on the sign-in screen
+00:05 +7: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/widget/task_flow_test.dart: new account sees the empty task state
+00:05 +8: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/widget/task_flow_test.dart: empty task form shows validation and does not navigate
+00:06 +9: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/widget/task_flow_test.dart: back navigation returns from new task to the list
+00:06 +10: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/widget/task_flow_test.dart: user can create and see a task
+00:06 +11: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/widget/task_flow_test.dart: user can mark a task complete
+00:06 +12: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/widget/task_flow_test.dart: write failures show feedback without an uncaught exception
+00:07 +13: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/widget/task_flow_test.dart: delete failures show feedback and keep the task visible
+00:07 +14: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/widget/task_flow_test.dart: user can delete a task
+00:07 +15: C:/Users/JAVIER/Documents/Codex/2026-11-11/qui/test/widget/task_flow_test.dart: user can sign out and return to login
+00:07 +16: All tests passed!

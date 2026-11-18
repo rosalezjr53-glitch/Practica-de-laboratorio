@@ -1,0 +1,48 @@
+Running Gradle task 'assembleDebug'...                          
+WARNING: The SDK Manager CLI tool (sdkmanager) is deprecated. Android CLI will be used instead.
+The 'android' binary can also be found in the cmdline-tools directory, and 'android sdk' is the replacement for 'sdkmanager'.
+To learn more about the Android CLI and how to use it, see the documentation (https://d.android.com/tools/agents/android-cli)
+
+Failed to save repository index to C:\Users\JAVIER\AppData\Local\Android\sdk
+Nov 11, 2026 8:20:28 PM java.util.prefs.WindowsPreferences <init>
+ADVERTENCIA: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0xffffffff80000001. Windows RegCreateKeyEx(...) returned error code 5.
+Nov 11, 2026 8:20:28 PM java.util.prefs.WindowsPreferences openKey
+ADVERTENCIA: Could not open windows registry node Software\JavaSoft\Prefs at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 5.
+java.lang.SecurityException: Could not open windows registry node Software\JavaSoft\Prefs at root 0xffffffff80000001: Access denied
+	at java.prefs/java.util.prefs.WindowsPreferences.openKey(Unknown Source)
+	at java.prefs/java.util.prefs.WindowsPreferences.openKey(Unknown Source)
+	at java.prefs/java.util.prefs.WindowsPreferences.<init>(Unknown Source)
+	at java.prefs/java.util.prefs.WindowsPreferences.childSpi(Unknown Source)
+	at java.prefs/java.util.prefs.AbstractPreferences.node(Unknown Source)
+	at java.prefs/java.util.prefs.AbstractPreferences.node(Unknown Source)
+	at com.android.tools.analytics.InstallationId.get(InstallationId.kt:35)
+	at com.android.tools.analytics.InstallationId.get(InstallationId.kt:32)
+	at com.android.cli.update.Updater.checkForUpdates(Updater.kt:132)
+	at com.android.cli.update.Updater.checkForUpdates$default(Updater.kt:118)
+	at com.android.cli.update.Updater.displayUpdateBannerIfNeeded(Updater.kt:99)
+	at com.android.cli.ui.AndroidCLI.maybeShowUpdateBanner(AndroidCLI.kt:222)
+	at com.android.cli.ui.AndroidCLI.access$maybeShowUpdateBanner(AndroidCLI.kt:31)
+	at com.android.cli.ui.AndroidCLI.execute(AndroidCLI.kt:134)
+	at com.android.cli.ui.AndroidCLI.run(AndroidCLI.kt:89)
+	at com.android.cli.Android.main(Android.java:101)
+Crash report stored at C:\Users\JAVIER\Documents\Codex\2026-11-11\qui\work\android-user\cli\analytics\crash_reports\22304-3-1.1.16717390.crash
+Could not open windows registry node Software\JavaSoft\Prefs at root 0xffffffff80000001: Access denied
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file 'C:\Users\JAVIER\Documents\Codex\2026-11-11\qui\android\build.gradle.kts' line: 19
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> Process 'command 'C:\Users\JAVIER\AppData\Local\Android\sdk\cmdline-tools\latest\bin\sdkmanager.bat'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 26s
+Running Gradle task 'assembleDebug'...                             26,5s
+Gradle task assembleDebug failed with exit code 1

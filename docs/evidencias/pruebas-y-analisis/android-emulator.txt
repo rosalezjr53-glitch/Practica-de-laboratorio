@@ -1,0 +1,6 @@
+Intento de arranque del AVD Medium_Phone (Android 34, x86_64):
+
+ERROR: x86_64 emulation currently requires hardware acceleration!
+CPU acceleration status: Hyper-V detected and Windows Hypervisor Platform is available. Please ensure both the "Hyper-V" and "Windows Hypervisor Platform" features are enabled.
+
+Resultado: el emulador terminó antes de registrar un dispositivo en adb. Por eso `flutter run -d Medium_Phone` respondió que no encontró un dispositivo compatible. La app aún debe ejecutarse en un emulador con aceleración habilitada o en un dispositivo Android físico.
